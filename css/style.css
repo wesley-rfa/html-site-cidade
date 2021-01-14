@@ -173,6 +173,78 @@ input.submit:hover{
     border: 2px solid #870529;
 }
 
+/**formatando imagens**/
+
+img.imagem-principal{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+    margin-top: 10px;
+}
+
+/**Formatando cabeçalhos**/
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+/**Formatando elementos da classe destaque**/
+
+.destaque h3{
+    background: #b10333;
+    color: #ffffff;
+}
+.destaque p{
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.destaque a{
+    text-decoration: none;
+    padding: 5px;
+    color: #b10333;
+    font-weight: bold;
+}
+.destaque a:hover{
+    background: #294c71;
+    color: #ffffff;
+    border: 1px solid #294c71;
+}
+
+/**Formatando lista de notícias**/
+
+#lista-noticias li{
+    padding: 2px;
+    border-bottom: 1px solid #cccccc;
+    height: 61px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.9em;
+    font-weight: 800;
+    padding: 0;
+    color: #294c71;
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000000;
+}
+
+#lista-noticias li:hover{
+    background: #e7e7e7;
+}
 /**Rodapé**/
 
 #container-rodape{
